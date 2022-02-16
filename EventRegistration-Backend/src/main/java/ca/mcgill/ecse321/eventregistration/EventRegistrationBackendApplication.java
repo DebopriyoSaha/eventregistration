@@ -14,10 +14,10 @@ public class EventRegistrationBackendApplication {
   }
 
   // Request Mapping
-
   @RequestMapping("/")
   public String greeting(){
-    return "Hello world!";
+    System.out.println("Hi");
+    return "Hello world!! ";
   }
 
 }
